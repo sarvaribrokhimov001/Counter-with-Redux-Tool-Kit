@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #060606, #070608);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count {
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.section {
+  display: flex;
+  gap: 15px;
+}
+
+.section button {
+  padding: 12px 25px;
+  font-size: 19px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.decrement__btn {
+  background-color: black;
+  color: red;
+  border: 5px solid red;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+.decrement__btn:hover {
+   box-shadow:
+    0 0 10px rgba(255, 23, 68, 0.8),
+    0 0 20px rgba(255, 23, 68, 0.7),
+    0 0 40px rgba(255, 23, 68, 0.6),
+    0 0 80px rgba(255, 23, 68, 0.5);
+}
+
+.decrement__btn:active {
+    background-color: red;
+    color: white;
+    border: 5px solid white;
+}
+
+.increment__btn {
+  background-color: black;
+  color: green;
+  border: 5px solid green;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+}
+
+.increment__btn:hover {
+  box-shadow:
+    0 0 10px rgba(0, 230, 118, 0.8),
+    0 0 20px rgba(0, 230, 118, 0.7),
+    0 0 40px rgba(0, 230, 118, 0.6),
+    0 0 80px rgba(0, 230, 118, 0.5);
+}
+
+.increment__btn:active {
+    background-color: green;
+    color: white;
+    border: 5px solid white;
+}
+
+.reset__btn {
+  background-color: black;
+  color: yellow;
+  border: 5px solid yellow;
+  box-shadow: 0 0 15px rgba(255, 255, 0, 0.7);
+}
+
+.reset__btn:hover {
+  box-shadow:
+    0 0 10px rgba(255, 214, 0, 0.8),
+    0 0 20px rgba(255, 214, 0, 0.7),
+    0 0 40px rgba(255, 214, 0, 0.6),
+    0 0 80px rgba(255, 214, 0, 0.5);
+}
+
+.reset__btn:active {
+    background-color: yellow;
+    color: white;
+    border: 5px solid white;
+}
