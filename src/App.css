@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -48,9 +48,9 @@
 }
 
 .decrement__btn:active {
-    background-color: red;
-    color: white;
-    border: 5px solid white;
+  background-color: red;
+  color: white;
+  border: 5px solid white;
 }
 
 .increment__btn {
@@ -69,9 +69,9 @@
 }
 
 .increment__btn:active {
-    background-color: green;
-    color: white;
-    border: 5px solid white;
+  background-color: green;
+  color: white;
+  border: 5px solid white;
 }
 
 .reset__btn {
@@ -90,7 +90,7 @@
 }
 
 .reset__btn:active {
-    background-color: yellow;
-    color: white;
-    border: 5px solid white;
+  background-color: yellow;
+  color: white;
+  border: 5px solid white;
 }
